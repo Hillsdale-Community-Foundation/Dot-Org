@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Mission"
-      section: mission
-    - title: "Projects"
-      section: projects
+    # - title: "Mission"
+    #   section: mission
     - title: "About"
       section: about
     - title: "History"
       section: history
+    - title: "Projects"
+      section: projects
     - title: "Board"
       section: board
     - title: "Contact"

@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Hillsdale Community Foundation
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#about"
 
-  services:
-    title: "Mission"
-    text: "Lorem ipsum"
-    section: mission
-    list:
-      - title: "community events"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "school and neighbor support"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "community beautification"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  # services:
+  #   title: "Mission"
+  #   text: "Lorem ipsum"
+  #   section: mission
+  #   list:
+  #     - title: "community events"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #       icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+  #     - title: "school and neighbor support"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #       icon: fas fa-laptop
+  #     - title: "community beautification"
+  #       desc: "Your description here, full **Markdown** support"
+  #       icon: fab fa-markdown
 
   portfolio:
     title: "Projects"
@@ -70,27 +70,27 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
+    text: "The Hillsdale Community Foundation story"
     body: "The Foundation organizes community events; supports our schools and other institutions; beautifies and sustains our environment; and helps neighbors in need. We are supported by generous, and grateful, community members through donations, bequests, and volunteerism. Read on and contact us to learn how you can become part of the change we want to see in Hillsdale."
     section: about
 
-  clients:
-    section: partners
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  # clients:
+  #   section: partners
+  #   max-height: 100px
+  #   horizontal-scrolling: "" #"yes/no"
+  #   list:
+  #     - title: "envato"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/envato.jpg
+  #     - title: "designmodo"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/designmodo.jpg
+  #     - title: "themeforest"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/themeforest.jpg
+  #     - title: "Creative Market"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/creative-market.jpg
 
   team:
     title: "Board of Directors"
