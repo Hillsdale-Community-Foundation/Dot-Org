@@ -14,33 +14,33 @@ en: &DEFAULT_EN
     title: Welcome to our Studio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
-    title: "Services"
+    title: "Mission"
     text: "Lorem ipsum"
-    section: services
+    section: mission
     list:
-      - title: "E-Commerce"
+      - title: "community events"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+      - title: "school and neighbor support"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "community beautification"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
+    title: "Projects"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+    section: projects
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
+    title: "History"
     text: "Lorem ipsum timeline"
-    section: timeline
+    section: history
     # left is the default
     #start_align: "left"
     events:
@@ -71,11 +71,11 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "The Foundation organizes community events; supports our schools and other institutions; beautifies and sustains our environment; and helps neighbors in need. We are supported by generous, and grateful, community members through donations, bequests, and volunteerism. Read on and contact us to learn how you can become part of the change we want to see in Hillsdale."
     section: about
 
   clients:
-    section: clients
+    section: partners
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
@@ -93,45 +93,45 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
+    title: "Board of Directors"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        # image: assets/img/team/500x500.jpg
+        # social:
+        #   - url: https://twitter.com
+        #     icon: fab fa-twitter
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        # image: assets/img/team/2.jpg
+        # social:
+        #   - url: https://twitter.com
+        #     icon: fab fa-twitter
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        # image: assets/img/team/500x500.jpg
+        # social:
+        #   - url: https://twitter.com
+        #     icon: fab fa-twitter
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Email info@hillsdalecommunityfoundation.org"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -146,17 +146,17 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
